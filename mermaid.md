@@ -8,6 +8,7 @@ Onderstaande flowchart beschrijft het proces zoals we dat binnen VNG Realisatie 
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 graph TD
     A([Start])---->B{"<b>1</b><br/>Eerste versie<br/>van Respec<br/>documentatie?"}
+    click B callback "Tooltip for B"
     B{"<b>1</b><br/>Eerste versie<br/>van Respec<br/>documentatie?"}--Nee-->C("...")
     C("...")---->D("<b>3</b><br/>Creëer nieuwe content of pas content aan")
     C("...")---->E("<b>5</b><br/>Pas basisstructuur aan voor versie")
